@@ -1,5 +1,29 @@
-mlops_env/
+# --- MLOps / MLflow Specifics ---
 mlruns/
-.env
-__pycache__/
-*.py[cod]
+mlartifacts/
+.mlflow/
+
+# --- Python Virtual Environments ---
+mlops_env/
+venv/
+.venv/
+env/
+ENV/
+pyvenv.cfg
+
+# --- Data and Large Artifacts ---
+*.csv
+*.json
+*.parquet
+*.pkl
+*.joblib
+*.h5
+
+# --- Operating System Junk ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
